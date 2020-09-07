@@ -29,6 +29,17 @@ class HigherLowerActivity : AppCompatActivity() {
      * Update the last throw text and the dice image resource drawable with the current throw.
      */
     private fun updateUI() {
+        
         binding.tvLastThrow.text = getString(R.string.last_throw, lastThrow)
+    }
+
+    /**
+     * Replaces the previous dice value with the current one and replaces the current dice with a new dice
+     * with a random number between 1 and 6 (inclusive).
+     */
+    private fun rollDice() {
+        lastThrow = currentThrow
+        currentThrow = (1..6).random()
+        updateUI()
     }
 }
