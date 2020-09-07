@@ -11,6 +11,6 @@
     <string name="equals">Equals</string>
     <string name="lower">Lower</string>
     <string name="dice">Dice</string>
-    <string name="correct">Correct</string>
-    <string name="incorrect">Incorrect</string>
+    <string name="correct">You were correct!</string>
+    <string name="incorrect">Incorrect :c</string>
 </resources>
