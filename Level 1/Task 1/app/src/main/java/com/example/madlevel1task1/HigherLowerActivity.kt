@@ -41,6 +41,15 @@ class HigherLowerActivity : AppCompatActivity() {
     private fun updateUI() {
 
         binding.tvLastThrow.text = getString(R.string.last_throw, lastThrow)
+
+        when (currentThrow){
+            1 -> binding.imgDice.setImageResource(R.drawable.dice1)
+            2 -> binding.imgDice.setImageResource(R.drawable.dice2)
+            3 -> binding.imgDice.setImageResource(R.drawable.dice3)
+            4 -> binding.imgDice.setImageResource(R.drawable.dice4)
+            5 -> binding.imgDice.setImageResource(R.drawable.dice5)
+            6 -> binding.imgDice.setImageResource(R.drawable.dice6)
+        }
     }
 
     /**
