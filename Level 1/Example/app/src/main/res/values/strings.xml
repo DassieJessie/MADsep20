@@ -3,4 +3,8 @@
     <string name="animal_label">What kind of animal is this?</string>
     <string name="answer_hint">Species</string>
     <string name="btn_text">Confirm</string>
+
+    <string name="giraffe">Giraffe</string>
+    <string name="correct">Correct!</string>
+    <string name="incorrect">Incorrect, the correct answer is Giraffe!</string>
 </resources>
