@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">MADlevel1Task1</string>
+    <string name="app_label">Guess if the next throw is going to be lower, equal or higher.</string>
+    <string name="imgDice_description">Image of a dice</string>
+    <string name="last_throw">Last throw: %d</string>
+    <string name="btn_lower">Lower</string>
+    <string name="btn_equals">Equals</string>
+    <string name="btn_higher">Higher</string>
 </resources>
